@@ -11,13 +11,17 @@
     - T1
     - T2
 
-- Board Setup
-    - [Xilinx Kria KV260](board/kv260.md)
-
 - Dataset
     - [Debris in Canada](data/debris)
 
+- Dev. Environment
+    - [Overview](env/overview.md)
+    - [Host Machine](env/host.md)
+    - Target Machine
+        - [Xilinx Kria KV260](env/target/kv260.md)
+
 - Dev. Tool Primer
+    - [Python Virtual Environments](tool/pyvenv.md)
     - [Docker](tool/docker)
 
 - [BB-KI Chips](BB-KI)
