@@ -12,9 +12,7 @@
     - T2
 
 - Board Setup
-    - Xilinx Kria KV260
-        - [Update Firmware](board/kv260/firmware)
-        - [Install OS](board/kv260/install-os)
+    - [Xilinx Kria KV260](board/kv260.md)
 
 - Dataset
     - [Debris in Canada](data/debris)
