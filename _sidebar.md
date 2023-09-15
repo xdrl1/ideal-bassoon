@@ -1,6 +1,25 @@
-- Xilinx KV260 Setup
-    - [Update Firmware](board/firmware)
-    - [Install OS](board/install-os)
+- Curriculum
+    - [Preface](curriculum/preface)
+    - [1. From Cloud to Edge](curriculum/1_from_cloud_to_edge)
+    - [2. AI in Edge Environments](curriculum/2_AI_in_edge_env)
+    - [3. FPGA-based Edge AI](curriculum/3_edge_AI_using_FPGA)
+    - [4. Model Compression - Pruning](curriculum/4_pruning)
+    - [5. Model Compression - Quantization](curriculum/5_quantization)
+    - [6. Outlook](curriculum/6_outlook)
 
+- Tutorial
+    - T1
+    - T2
 
-- [Example Second Page](second-page)
+- Board Setup
+    - Xilinx Kria KV260
+        - [Update Firmware](board/kv260/firmware)
+        - [Install OS](board/kv260/install-os)
+
+- Dataset
+    - [Debris in Canada](data/debris)
+
+- Dev. Tool Primer
+    - [Docker](tool/docker)
+
+- [BB-KI Chips](BB-KI)
