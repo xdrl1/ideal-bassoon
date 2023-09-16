@@ -1,1 +1,5 @@
-xie what
+# Edge AI on FPGAs
+
+> one of open education resources (OERs) presented by the [Professorship of Big Geospatial Data Management, Technische Universität München](https://www.bgd.ed.tum.de/en/) (TUM-BGD)
+
+Since the late 2000s, deep neural networks (DNNs) have obtained remarkable achievements in almost all fields of machine learning (ML), even outperforming human experts on certain tasks, which are believed or advertised as one possible way to implement artificial intelligence (AI). Given a trained DNN model for inference, cloud-based deployments supported by limited network infrastructure are hardly reliable as DNN-related computing is usually data-intensive and even latency-sensitive. Besides, transmitting data from personal devices to remote clouds raises obvious privacy concerns. Therefore, offloading DNN computation from clouds to network edges is a consensus. However, DNN model inferencing is too heavy for most edge devices which are usually resource-constrained in terms of power supply, computational capability, battery life, etc., revealing the main challenge of **edge AI**.

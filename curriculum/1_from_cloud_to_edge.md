@@ -1,3 +1,5 @@
+# 1. From Cloud to Edge
+
 > **Pre-requirements**: None.
 >
 > **Learning Objective**: Students will be familiar with topics including cloud computing, Internet of Things (IoT) and edge computing, understand the motivations, advantages, and challenges of leveraging edge computing.
@@ -14,7 +16,7 @@ Cloud computing aims to pack computing resources into services empowering users 
 
 ## 1.X Wrap-up
 
-*Cloud computing* combines data center hardware and software to provide elastic computing resource allocation as services, pricing in a pay-as-you-go manner [^1]. The benefits of such technologies are two-fold. On the one hand, end users can easily access high-performance servers and obtain processed data in a short time for their occasional but huge computation demand. On the other hand, cloud providers leverage virtualization to multiplex their servers for a large number of users, increasing equipment utilization and profitability. Therefore, commercial services based on cloud computing have flourished in the 2010 s, giving birth to many famous products, including Microsoft Azure, AWS, DigitalOcean, Google Cloud, etc.
+*Cloud computing* combines data center hardware and software to provide elastic computing resource allocation as services, pricing in a pay-as-you-go manner [^1]. The benefits of such technologies are two-fold. On the one hand, end users can easily access high-performance servers and obtain processed data in a short time for their occasional but huge computation demand. On the other hand, cloud providers leverage virtualization to multiplex their servers for a large number of users, increasing equipment utilization and profitability. Therefore, commercial services based on cloud computing have flourished in the 2010s, giving birth to many famous products, including Microsoft Azure, AWS, DigitalOcean, Google Cloud, etc.
 
 However, cloud computing relies heavily on network that is hard to ensure fast and stable responses for latency-sensitive tasks. Consequently, real-time systems (e.g., visual guiding service, autonomous cars) meet challenges to utilize computing resources on cloud [^2]. Worse still, network infrastructure is built much slower than data growth, making it increasingly time-consuming to transfer big data to cloud servers for common data-intensive tasks [^3].
 
@@ -22,9 +24,10 @@ Therefore, compared with *cloud* locates at the network *center*, processing dat
 
 Nevertheless, edge devices are usually resource-constrained w.r.t. energy supply, storage, computational capability, and battery life. Hence, we need a series of optimization technologies to make computation tasks suitable for edge computing.
 
-
 ***Bibliography***
 
 [^1]: Fox, A., Griffith, R., Joseph, A., Katz, R., Konwinski, A., Lee, G., Patterson, D., Rabkin, A., Stoica, I., & others. (2009). Above the clouds: A berkeley view of cloud computing. In Dept. Electrical Eng. And Comput. Sciences, University of California, Berkeley, Rep. UCB/EECS (Vol. 28, Issue 13, p. 2009).
+    
 [^2]: Varghese, B., Wang, N., Barbhuiya, S., Kilpatrick, P., & Nikolopoulos, D. S. (2016). Challenges and Opportunities in Edge Computing. 2016 IEEE International Conference on Smart Cloud (SmartCloud). https://doi.org/10.1109/SmartCloud.2016.18
+    
 [^3]: Shi, W., Cao, J., Zhang, Q., Li, Y., & Xu, L. (2016). Edge Computing: Vision and Challenges. In IEEE Internet of Things Journal (Vol. 3, Issue 5, pp. 637–646). IEEE. https://doi.org/10.1109/JIOT.2016.2579198
