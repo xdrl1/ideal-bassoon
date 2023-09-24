@@ -8,8 +8,7 @@
     - [6. Outlook](curriculum/6_outlook)
 
 - Tutorial
-    - T1
-    - T2
+    - [Overview](tutorial/overview)
 
 - Dataset
     - [Debris in Canada](data/debris)

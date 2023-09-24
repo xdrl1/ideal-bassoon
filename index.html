@@ -10,14 +10,13 @@
   <title>Seminar Selected Topics in Big Geospatial Data</title>
   <meta name="description" content="One of OERs from TUM-BGD.">
 
-  <!-- Default Theme (see https://docsify.js.org/#/themes) -->
-  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"> -->
   <link
     rel="stylesheet"
     href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css"
     title="docsify-darklight-theme"
     type="text/css"
   />
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
 
 </head>
 
@@ -32,6 +31,10 @@
       // Sidebar Configuration
       auto2top: true,
       homepage: 'home.md',
+      latex: {
+        inlineMath   : [['$', '$'], ['\\(', '\\)']], // default
+        displayMath  : [['$$', '$$']],               // default
+      },
       loadNavbar: true,
       loadSidebar: true,
       maxLevel: 0,
@@ -52,7 +55,9 @@
 
   <!-- Required -->
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
-
+  <!-- formula -->
+  <script src="//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-latex@0"></script>
   <!-- Recommended -->
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
